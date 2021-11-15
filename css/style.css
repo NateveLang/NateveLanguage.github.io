@@ -1,30 +1,40 @@
 .container {
-  width: 100%;
-  padding-right: 15px auto;
-  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: #a2cce9;
 }
 
 .logo {
+    margin: 0 auto;
     position: relative;
-    width: 50px;
-    height: 100px;
+    width: 10%;
+    height: 90%;
     background-color: #0097A7;
 }
 
-.logo:before {
+.logo::before {
     position: absolute;
-    width: 50px;
-    height: 100px;
+    width: 100%;
+    height: 90%;
     background-color: #0097A7;
     content: "";
-    left: 20px;
+    left: 130%;
 }
 
-.logo:after {
+.logo::after {
     position: absolute;
-    width: 50px;
-    height: 80px;
+    width: 100%;
+    height: 110%;
     background-color: #0097A7;
     content: "";
-    right: 20px;
+    right: 130%;
+}
+
+span{
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    background-color: #ddec06;
+    content: "";
+    right: 160%;
 }
