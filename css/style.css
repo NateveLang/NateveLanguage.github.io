@@ -8,14 +8,14 @@
     position: relative;
     width: 50px;
     height: 100px;
-    background-color: #f00;
+    background-color: #0097A7;
 }
 
 .logo:before {
     position: absolute;
     width: 50px;
     height: 100px;
-    background-color: #f00000;
+    background-color: #0097A7;
     content: "";
     left: 90px;
 }
