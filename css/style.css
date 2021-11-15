@@ -17,5 +17,14 @@
     height: 100px;
     background-color: #0097A7;
     content: "";
-    left: 90px;
+    left: 20px;
+}
+
+.logo:after {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background-color: #0097A7;
+    content: "";
+    right: 20px;
 }
