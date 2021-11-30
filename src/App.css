@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .spin .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.left-container {
+  float: left;
+  align-items: center;
+  justify-content: left;
+}
+
+.right-container {
+  float: right;
+  align-items: center;
+  justify-content: right;
+}
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: center;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  padding: 10px 5px 10px 5px;
+}
+
+.horizontal{
+  list-style-type: none;
+}
+
+.menubar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menubar ul li {
+  background-color: #282c34;
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  float: left;
+}
+
+.menubar ul .button:hover {
+  background:#383e49;
+}
+
+.menubar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.vertical li {
+  width: 90%;
+  height: 1rem;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.vertical .button {
+  border-bottom: 2px solid #1e2022;
+  border-right: 2px solid #1e2022;
+}
+
+.vertical .button:hover {
+  border-top: 2px solid #1e2022;
+  border-left: 2px solid #1e2022;
+  border-bottom: 0px solid #1e2022;
+  border-right: 0px solid #1e2022;
+}
+
+.menu-logo {
+  margin: 0;
+  padding: 1.7px 0 0 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+}
+
+.column {
+  background-color: #282c34;
+  flex: 1;
+  max-width: 100%;
+  padding: 0 20px;
+  border: 5px solid #1e2022;
+}
+
+.color-1 {
+  background-color: #282c34;
+}
+
+.color-2 {
+  background-color: #1e2022;
+}
+
+.link {
+  color: #61dafb;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
